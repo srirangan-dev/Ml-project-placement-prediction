@@ -18,6 +18,7 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier,
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import cross_val_score
 
+
 # ─── Load Data ───────────────────────────────────────────────────────────────
 base_path = os.path.dirname(__file__)  # folder where script is located
 train = pd.read_csv(os.path.join(base_path, "train.csv"))
