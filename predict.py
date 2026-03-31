@@ -9,6 +9,8 @@ target_enc   = joblib.load('target_encoder.pkl')
 feature_cols = joblib.load('feature_cols.pkl')
 
 
+
+
 print("=" * 50)
 print("  Placement Prediction System")
 print("=" * 50)
